@@ -1,6 +1,12 @@
 .header  {
+  display: flex;
+  justify-content: space-between;
   font-family: monospace;
   background: papayawhip;
+}
+.leftLinksUl,.rightLinksUl {
+  display: flex;
+  flex-direction: row;
 }
 
 .logo {
